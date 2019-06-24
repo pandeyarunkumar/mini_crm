@@ -1,9 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="add-emp pull-right">
+        <a href="{{route('create-employee')}}" class="btn btn-info"><i class="fa fa-plus"></i> Add Employee</a>
+    </div>
     <div class="container">
         <h4 class="heading"> Employee List </h4>
-        <a href="{{route('create-employee')}}" class="btn btn-info add-emp"><i class="fa fa-plus"></i> Add Employee</a>
         <div class="row">
         <div class="col-md-1">
         </div>

@@ -68,7 +68,7 @@
                     <span class="icon" onclick="openNav()">&#9776;</span>
                 @endif
             @endif
-                <a class="navbar-brand brand-name" href="#">
+                <a class="navbar-brand brand-name" href="{{ route('get-employees') }}">
                     {{ config('app.name', 'MINI CRM') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">

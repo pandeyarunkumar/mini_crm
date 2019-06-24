@@ -55,10 +55,9 @@
   }
 
   .add-emp{
-    position: fixed;
-    top:10%;
-    right:1.6%;
+    margin-right: 10px;
   }
+
 
   .btn-warning {
     background-color: #f9c851 !important;
@@ -70,4 +69,7 @@
     background-color:#fe5f55;
     border: 1px solid #fe5f55;
     color: #fff;
+}
+table{
+  margin-top:10px;
 }

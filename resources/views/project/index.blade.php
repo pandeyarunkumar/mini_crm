@@ -1,9 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="add-emp pull-right">
+        <a href="{{route('create-project')}}" class="btn btn-info add-emp"><i class="fa fa-plus"></i> Add Project</a>
+    </div>
     <div class="container">
         <h4 class="heading">Project List </h4>
-        <a href="{{route('create-project')}}" class="btn btn-info add-emp"><i class="fa fa-plus"></i> Add Project</a>
         <div class="row">
         <div class="col-md-1">
         </div>
